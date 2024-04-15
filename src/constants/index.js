@@ -1,12 +1,5 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
-export const heroContent = [
-  { 
-    id: "text-1",
-    paragraph: 'Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees',
-  }
-]
-
 export const navLinks = [
   {
     id: "home",
@@ -25,6 +18,22 @@ export const navLinks = [
     title: "Clients",
   },
 ];
+
+export const heroContent = [
+  { 
+    id: "text-1",
+    paragraph: 'Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees',
+  }
+]
+
+export const business = [
+  {
+    id: 'business',
+    content1: 'You do the business,',
+    content2: "we'll handle the money.",
+    paragraph: "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market",
+  }
+]
 
 export const features = [
   {
