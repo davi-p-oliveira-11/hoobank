@@ -26,6 +26,24 @@ export const heroContent = [
   }
 ]
 
+export const stats = [
+  {
+    id: "stats-1",
+    title: "User Active",
+    value: "3800+",
+  },
+  {
+    id: "stats-2",
+    title: "Trusted by Company",
+    value: "230+",
+  },
+  {
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230M+",
+  },
+];
+
 export const business = [
   {
     id: 'business',
@@ -68,6 +86,25 @@ export const billing = [
   }
 ];
 
+export const cardDeal = [
+  {
+    id: 'cardDeal',
+    content1: 'Find a better card deal,',
+    content2: "in few easy steps.",
+    paragraph: "Elit enim sed massa etiam, Mauris eu adipscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliportitir integer platea placerat",
+  }
+];
+
+export const testimonials = [
+  {
+    id: 'testimonials',
+    content1: 'What people are',
+    content2: 'saying about us',
+    paragraph: 'Everything you need to accept card pauments and grow your business anywhere on the planet',
+  }
+]
+
+
 export const feedback = [
   {
     id: "feedback-1",
@@ -95,23 +132,7 @@ export const feedback = [
   },
 ];
 
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
+
 
 export const footerLinks = [
   {
