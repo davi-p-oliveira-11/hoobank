@@ -132,7 +132,32 @@ export const feedback = [
   },
 ];
 
+export const clients = [
+  {
+    id: "client-1",
+    logo: airbnb,
+  },
+  {
+    id: "client-2",
+    logo: binance,
+  },
+  {
+    id: "client-3",
+    logo: coinbase,
+  },
+  {
+    id: "client-4",
+    logo: dropbox,
+  },
+];
 
+export const callToAction = [
+  {
+    id: 'callToAction',
+    content1: "Let's try our service now !",
+    paragraph: 'Everithing you need to accept card payments and grow your business anywherw on the planet.'
+  }
+]
 
 export const footerLinks = [
   {
@@ -223,21 +248,3 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
