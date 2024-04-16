@@ -59,6 +59,15 @@ export const features = [
   },
 ];
 
+export const billing = [
+  {
+    id: 'billing',
+    content1: 'Easily control your,',
+    content2: "billing & invoicing.",
+    paragraph: "Elit enim sed massa etiam, Mauris eu adipscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliportitir integer platea placerat",
+  }
+];
+
 export const feedback = [
   {
     id: "feedback-1",
