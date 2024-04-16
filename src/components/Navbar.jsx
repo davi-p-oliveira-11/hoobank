@@ -14,7 +14,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
            key={nav.id}
-           className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white mr-10`}
+           className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white hover:text-secondary cursor-pointer mr-10`}
           >
            <a href={`#${nav.id}`}>
             {nav.title}
@@ -27,7 +27,7 @@ const Navbar = () => {
          <img 
            src={toggle ? close : menu} 
            alt="menu"
-           className='w-[28px] h-[28px] object-contain'
+           className='w-[28px] h-[28px] object-contain cursor-pointer'
            onClick={() => setToggle((prev) => !prev) }
            />
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
              <li
                key={nav.id}
-               className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white mr-10`}
+               className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white hover:text-secondary cursor-pointer mr-10`}
              >
              <a href={`#${nav.id}`}>
               {nav.title}
